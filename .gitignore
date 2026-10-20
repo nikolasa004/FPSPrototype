@@ -1,0 +1,53 @@
+# Unity-generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# IDE and operating system files
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Compiled builds and exported packages (publish Windows ZIP in GitHub Releases)
+*.exe
+*.apk
+*.aab
+*.unitypackage
+
+# Private keys and local configuration
+*.keystore
+*.jks
+*.p12
+*.pfx
+*.pem
+*.key
+.env
+.env.*
+
+# The FPS prototype uses third-party Unity Asset Store models, audio, shaders, and Editor packages.
+# Keeping only the folders known to contain my own work.
+# This is intentionally a PARTIAL Unity source project.
+/Assets/*
+!/Assets/Scripts/
+!/Assets/Scripts.meta
+!/Assets/Animacije/
+!/Assets/Animacije.meta
+!/Assets/Scene/
+!/Assets/Scene.meta
